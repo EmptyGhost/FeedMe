@@ -20,42 +20,42 @@ export const config = {
     },
     {
       name: "Hacker News 历史每日前十",
-      url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
+      url: "https://rsss.templateapot.cn/github/issue/headllines/hackernews-daily",
       category: "科技资讯",
     },
     {
       name: "Github 今日热门",
-      url: "https://rsshub.rssforever.com/github/trending/daily/any",
+      url: "https://rsss.templateapot.cn/github/trending/daily/any",
       category: "代码项目",
     },
     {
       name: "Github 近一周热门",
-      url: "https://rsshub.rssforever.com/github/trending/weekly/any",
+      url: "https://rsss.templateapot.cn/github/trending/weekly/any",
       category: "代码项目",
     },
     {
       name: "Hugging Face 每日论文",
-      url: "https://rsshub.rssforever.com/huggingface/daily-papers",
+      url: "https://rsss.templateapot.cn/huggingface/daily-papers",
       category: "科研论文",
     },
     {
       name: "Hugging Face 博客",
-      url: "https://rsshub.rssforever.com/huggingface/blog",
+      url: "https://rsss.templateapot.cn/huggingface/blog",
       category: "技术博客",
     },
     {
       name: "Google 开发者博客",
-      url: "https://rsshub.rssforever.com/google/developers/en",
+      url: "https://rsss.templateapot.cn/google/developers/en",
       category: "技术博客",
     },
     {
       name: "Google 研究博客",
-      url: "https://rsshub.rssforever.com/google/research",
+      url: "https://rsss.templateapot.cn/google/research",
       category: "技术博客",
     },
     {
       name: "Product Hunt 今日热门",
-      url: "https://rsshub.app/producthunt/today",
+      url: "https://rsss.templateapot.cn/producthunt/today",
       category: "产品资讯",
     },
     {
@@ -99,8 +99,18 @@ export const config = {
       category: "新闻",
     },
     {
+      name: "路透社世界新闻 - 中国",
+      url: "https://rsss.templateapot.cn/reuters/world/china",
+      category: "新闻",
+    },
+    {
       name: "纽约时报 - 头条新闻",
-      url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      url: "https://rsss.templateapot.cn/nytimes/rss/HomePage",
+      category: "新闻",
+    },
+    {
+      name: "纽约时报 - 美国国内新闻",
+      url: "https://rsss.templateapot.cn/nytimes/rss/US",
       category: "新闻",
     },
     {
@@ -109,8 +119,8 @@ export const config = {
       category: "新闻",
     },
     {
-      name: "路透社世界新闻 - 中国",
-      url: "https://rsss.templateapot.cn/reuters/world/china",
+      name: "联合早报 - 新加坡新闻",
+      url: "https://rsss.templateapot.cn/zaobao/other/news/singapore",
       category: "新闻",
     },
     {
@@ -119,7 +129,12 @@ export const config = {
       category: "新闻",
     },
     {
-      name: "BBC World News - 亚太区",
+      name: "BBC News - 英国国内新闻",
+      url: "https://rsss.templateapot.cn/bbc/uk",
+      category: "新闻",
+    },
+    {
+      name: "BBC News - World News 亚太区",
       url: "https://rsss.templateapot.cn/bbc/world-asia",
       category: "新闻",
     },
@@ -144,8 +159,8 @@ export const config = {
       category: "新闻",
     },
     {
-      name: "华盛顿邮报 - 美国国内新闻",
-      url: "https://rsss.templateapot.cn/washingtonpost/app/national",
+      name: "新华网 - 新闻",
+      url: "https://rsss.templateapot.cn/xinhuanet/app",
       category: "新闻",
     },
     {
@@ -163,7 +178,7 @@ export const config = {
   dataPath: "./data",
 }
 
-export const defaultSource = config.sources[0]
+export const defaultSource = config.sources[5]
 
 /**
  * @param {string} url

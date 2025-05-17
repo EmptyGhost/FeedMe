@@ -19,11 +19,6 @@ export const config = {
       category: "科技资讯",
     },
     {
-      name: "Hacker News 历史每日前十",
-      url: "https://rsss.templateapot.cn/github/issue/headllines/hackernews-daily",
-      category: "科技资讯",
-    },
-    {
       name: "Github 今日热门",
       url: "https://rsss.templateapot.cn/github/trending/daily/any",
       category: "代码项目",
@@ -54,11 +49,6 @@ export const config = {
       category: "技术博客",
     },
     {
-      name: "Product Hunt 今日热门",
-      url: "https://rsss.templateapot.cn/producthunt/today",
-      category: "产品资讯",
-    },
-    {
       name: "LINUX DO 今日热门",
       url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
       category: "论坛",
@@ -84,22 +74,12 @@ export const config = {
       category: "新闻",
     },
     {
-      name: "华盛顿日报 - 头条新闻",
-      url: "https://www.washingtontimes.com/rss/headlines/news/",
-      category: "新闻",
-    },
-    {
-      name: "华盛顿日报 - 美国国内新闻",
-      url: "https://www.washingtontimes.com/rss/headlines/news/national/",
-      category: "新闻",
-    },
-    {
       name: "路透社 - 美国新闻",
       url: "https://rsss.templateapot.cn/reuters/world/us",
       category: "新闻",
     },
     {
-      name: "路透社世界新闻 - 中国",
+      name: "路透社 - 世界新闻中国",
       url: "https://rsss.templateapot.cn/reuters/world/china",
       category: "新闻",
     },
@@ -146,11 +126,6 @@ export const config = {
     {
       name: "CGTN - 国际新闻",
       url: "https://www.cgtn.com/subscribe/rss/section/world.xml",
-      category: "新闻",
-    },
-    {
-      name: "南华早报",
-      url: "https://www.scmp.com/rss/91/feed",
       category: "新闻",
     },
     {

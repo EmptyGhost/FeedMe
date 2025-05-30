@@ -39,21 +39,6 @@ export const config = {
       category: "技术博客",
     },
     {
-      name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily&key=de5fbaf2c5522eb655e1be719dec551b",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly&key=de5fbaf2c5522eb655e1be719dec551b",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly&key=de5fbaf2c5522eb655e1be719dec551b",
-      category: "论坛",
-    },
-    {
       name: "华尔街日报 - 美国国内新闻",
       url: "https://feeds.content.dowjones.io/public/rss/RSSUSnews",
       category: "新闻",
@@ -133,7 +118,7 @@ export const config = {
   dataPath: "./data",
 }
 
-export const defaultSource = config.sources[5]
+export const defaultSource = config.sources[1]
 
 /**
  * @param {string} url

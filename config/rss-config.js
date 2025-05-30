@@ -19,16 +19,6 @@ export const config = {
       category: "科技资讯",
     },
     {
-      name: "Github 今日热门",
-      url: "https://rsss.templateapot.cn/github/trending/daily/any",
-      category: "代码项目",
-    },
-    {
-      name: "Github 近一周热门",
-      url: "https://rsss.templateapot.cn/github/trending/weekly/any",
-      category: "代码项目",
-    },
-    {
       name: "Hugging Face 每日论文",
       url: "https://rsss.templateapot.cn/huggingface/daily-papers",
       category: "科研论文",
@@ -50,17 +40,17 @@ export const config = {
     },
     {
       name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily&key=de5fbaf2c5522eb655e1be719dec551b",
       category: "论坛",
     },
     {
       name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly&key=de5fbaf2c5522eb655e1be719dec551b",
       category: "论坛",
     },
     {
       name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
+      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly&key=de5fbaf2c5522eb655e1be719dec551b",
       category: "论坛",
     },
     {
@@ -96,16 +86,6 @@ export const config = {
     {
       name: "华盛顿邮报 - 美国国内新闻",
       url: "https://rsss.templateapot.cn/washingtonpost/app/national",
-      category: "新闻",
-    },
-    {
-      name: "联合早报 - 新加坡新闻",
-      url: "https://rsss.templateapot.cn/zaobao/other/news/singapore",
-      category: "新闻",
-    },
-    {
-      name: "联合早报 - 即时新闻 - 中国",
-      url: "https://rsss.templateapot.cn/zaobao/realtime/china",
       category: "新闻",
     },
     {
